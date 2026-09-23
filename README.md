@@ -181,8 +181,8 @@ meeting-assistant/
 │   └── server.py
 │
 ├── recordings/
-├── docs/
-└── tests/
+└── documentation/
+
 ```
 
 ---
