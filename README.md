@@ -568,8 +568,8 @@ Améliorations envisagées :
 
 ---
 
-# Auteurs
+# Auteur
 
-Projet développé dans le cadre du projet Meeting Assistant.
+Développé dans le cadre du projet Meeting Assistant.
 
-Maroua Ouldzmirli / ESI 
+Maroua Ouldzmirli / ESI - Alger
