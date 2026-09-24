@@ -1,5 +1,6 @@
 import os
 import sys
+import json
 
 from PySide6.QtCore import Qt, QTimer
 from PySide6.QtWidgets import (
@@ -44,6 +45,9 @@ class MeetingAssistantGUI(QWidget):
 
         self.setup_ui()
         self.setup_timer()
+
+
+
 
     # ============================================================
     # UI SETUP
@@ -511,6 +515,8 @@ class MeetingAssistantGUI(QWidget):
             1000
         )
 
+
+
     # ============================================================
     # START MEETING
     # ============================================================
@@ -530,74 +536,54 @@ class MeetingAssistantGUI(QWidget):
         )
 
         if not meeting_name:
-
             QMessageBox.warning(
                 self,
                 "Missing Information",
                 "Please enter a meeting name."
             )
-
             return
 
         if not room_name:
-
             QMessageBox.warning(
                 self,
                 "Missing Information",
                 "Please enter the Jitsi room name."
             )
-
             return
 
         try:
+            # ============================================================
+            # START NEW MEETING
+            # ============================================================
 
-            success = (
-                self.controller.start_meeting(
-                    meeting_name,
-                    room_name
-                )
+            success = self.controller.start_meeting(
+                meeting_name,
+                room_name
             )
 
             if not success:
-
                 QMessageBox.warning(
                     self,
                     "Error",
                     "The meeting could not be started."
                 )
-
                 return
 
-            self.start_button.setEnabled(
-                False
-            )
+            # ============================================================
+            # UPDATE GUI STATE
+            # ============================================================
 
-            self.stop_button.setEnabled(
-                True
-            )
+            self.start_button.setEnabled(False)
 
-            self.meeting_name_input.setEnabled(
-                False
-            )
+            self.stop_button.setEnabled(True)
 
-            self.room_input.setEnabled(
-                False
-            )
+            self.meeting_name_input.setEnabled(False)
+
+            self.room_input.setEnabled(False)
 
             self.status_label.setText(
                 "Status: Meeting running"
             )
-
-            # Clear previous transcript.
-            self.transcript_text.clear()
-
-            # Clear previous participants.
-            self.participant_table.setRowCount(
-                0
-            )
-
-            # Clear previous final output.
-            self.clear_final_output()
 
         except Exception as e:
 
@@ -662,7 +648,6 @@ class MeetingAssistantGUI(QWidget):
         # TRANSCRIPT
         # --------------------------------------------------------
 
-        self.participant_table.setRowCount(0)
         try:
 
             transcript = (
@@ -1276,6 +1261,7 @@ class MeetingAssistantGUI(QWidget):
 # ================================================================
 
 def run():
+
 
     app = QApplication.instance()
 

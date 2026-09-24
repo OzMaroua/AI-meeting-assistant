@@ -18,116 +18,115 @@
 [BROWSER:log] [CLIENT] API helper functions ready.
 [BOT] Wrapper page loaded.
 [BOT] Waiting for Jitsi IFrame API...
-[BROWSER:log] (TIME) index.html loaded:	 45.60000002384186
+[BROWSER:log] (TIME) index.html loaded:	 43.200000000186265
 [BOT] Jitsi IFrame API detected.
 [BOT] Waiting for conference...
-[BROWSER:log] 2026-09-23T13:34:44.032Z [LOG] [app:index.web] <HTMLDocument.<anonymous>>:  (TIME) document ready:	 936
-[BROWSER:log] (TIME) window loaded event:	 937.4000000059605
-[BROWSER:info] 2026-09-23T13:34:44.116Z [INFO] [app:redux] <Object.persistState>:  redux state persisted. 99914b932bd37a50b983c5e7c90ae93b -> d97349e83732b040c4afe48a92933651
-[BROWSER:debug] 2026-09-23T13:34:44.141Z [DEBUG] [ui:VideoLayout] <Object.updateLargeVideo>:  Ignoring large video update with user id local: large video not initialized yet!
-[BROWSER:info] 2026-09-23T13:34:44.156Z [INFO] [app:config] Extending config with: {"disableAP":true,"prejoinConfig":{"enabled":false},"startWithAudioMuted":true,"startWithVideoMuted":true}
-[BROWSER:info] 2026-09-23T13:34:44.158Z [INFO] [app:config] Extending interfaceConfig with: {"TOOLBAR_BUTTONS":[]}
-[BROWSER:info] 2026-09-23T13:34:44.164Z [INFO] [core:JitsiMeetJS] <Object.init>:  This appears to be Chrome Headless, ver: 153.0.8010.12
-[BROWSER:info] 2026-09-23T13:34:44.166Z [INFO] [stats:LocalStatsCollector] <sr.connectAudioContext>:  Connecting audio context
-[BROWSER:info] 2026-09-23T13:34:44.169Z [INFO] [rtc:RTCUtils] <_s.init>:  Disable AP: true
-[BROWSER:info] 2026-09-23T13:34:44.171Z [INFO] [rtc:RTCUtils] <_s.init>:  Disable AGC: false
-[BROWSER:info] 2026-09-23T13:34:44.172Z [INFO] [rtc:RTCUtils] <_s.init>:  Stereo: false
-[BROWSER:debug] 2026-09-23T13:34:44.174Z [DEBUG] [connectivity:NetworkInfo] <_s.updateNetworkInfo>:  updateNetworkInfo {isOnline: true}
-[BROWSER:info] 2026-09-23T13:34:44.176Z [INFO] [app:lib-jitsi-meet] lib-jitsi-meet version: 7d14f385
-[BROWSER:info] 2026-09-23T13:34:44.178Z [INFO] [app:lib-jitsi-meet] User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36
-[BROWSER:log] 2026-09-23T13:34:44.184Z [LOG] [app:media] Start muted: audio, video
-[BROWSER:log] 2026-09-23T13:34:44.187Z [LOG] [app:media] Start audio only set to false
-[BROWSER:debug] 2026-09-23T13:34:44.189Z [DEBUG] [stats:AnalyticsAdapter] <Object.dispose>:  Disposing of analytics adapter.
-[BROWSER:info] 2026-09-23T13:34:44.190Z [INFO] [app:analytics] Initialized 0 analytics handlers
+[BROWSER:log] 2026-09-24T08:51:27.454Z [LOG] [app:index.web] <HTMLDocument.<anonymous>>:  (TIME) document ready:	 973.7000000001863
+[BROWSER:log] (TIME) window loaded event:	 975
+[BROWSER:info] 2026-09-24T08:51:27.539Z [INFO] [app:redux] <Object.persistState>:  redux state persisted. 99914b932bd37a50b983c5e7c90ae93b -> d97349e83732b040c4afe48a92933651
+[BROWSER:debug] 2026-09-24T08:51:27.566Z [DEBUG] [ui:VideoLayout] <Object.updateLargeVideo>:  Ignoring large video update with user id local: large video not initialized yet!
+[BROWSER:info] 2026-09-24T08:51:27.581Z [INFO] [app:config] Extending config with: {"disableAP":true,"prejoinConfig":{"enabled":false},"startWithAudioMuted":true,"startWithVideoMuted":true}
+[BROWSER:info] 2026-09-24T08:51:27.583Z [INFO] [app:config] Extending interfaceConfig with: {"TOOLBAR_BUTTONS":[]}
+[BROWSER:info] 2026-09-24T08:51:27.589Z [INFO] [core:JitsiMeetJS] <Object.init>:  This appears to be Chrome Headless, ver: 153.0.8010.12
+[BROWSER:info] 2026-09-24T08:51:27.591Z [INFO] [stats:LocalStatsCollector] <sr.connectAudioContext>:  Connecting audio context
+[BROWSER:info] 2026-09-24T08:51:27.594Z [INFO] [rtc:RTCUtils] <_s.init>:  Disable AP: true
+[BROWSER:info] 2026-09-24T08:51:27.596Z [INFO] [rtc:RTCUtils] <_s.init>:  Disable AGC: false
+[BROWSER:info] 2026-09-24T08:51:27.598Z [INFO] [rtc:RTCUtils] <_s.init>:  Stereo: false
+[BROWSER:debug] 2026-09-24T08:51:27.601Z [DEBUG] [connectivity:NetworkInfo] <_s.updateNetworkInfo>:  updateNetworkInfo {isOnline: true}
+[BROWSER:info] 2026-09-24T08:51:27.603Z [INFO] [app:lib-jitsi-meet] lib-jitsi-meet version: 7d14f385
+[BROWSER:info] 2026-09-24T08:51:27.606Z [INFO] [app:lib-jitsi-meet] User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36
+[BROWSER:log] 2026-09-24T08:51:27.613Z [LOG] [app:media] Start muted: audio, video
+[BROWSER:log] 2026-09-24T08:51:27.617Z [LOG] [app:media] Start audio only set to false
+[BROWSER:debug] 2026-09-24T08:51:27.618Z [DEBUG] [stats:AnalyticsAdapter] <Object.dispose>:  Disposing of analytics adapter.
+[BROWSER:info] 2026-09-24T08:51:27.620Z [INFO] [app:analytics] Initialized 0 analytics handlers
 [BROWSER:log] [CLIENT] Audio status changed: {"muted":false}
 [BROWSER:log] [CLIENT] Video status changed: {"muted":true}
 [BROWSER:log] [CLIENT] Audio status changed: {"muted":true}
-[BROWSER:debug] 2026-09-23T13:34:44.325Z [DEBUG] [app:conference] (TIME) init action dispatched: 1229.5
-[BROWSER:info] 2026-09-23T13:34:44.349Z [INFO] [rtc:RTCUtils] <_s._onMediaDevicesListChanged>:  list of media devices has changed: [InputDeviceInfo, InputDeviceInfo, InputDeviceInfo, InputDeviceInfo, MediaDeviceInfo, MediaDeviceInfo, MediaDeviceInfo]
-[BROWSER:debug] 2026-09-23T13:34:44.349Z [DEBUG] [rtc:RTCUtils] Available devices:  [InputDeviceInfo, InputDeviceInfo, InputDeviceInfo, InputDeviceInfo, MediaDeviceInfo, MediaDeviceInfo, MediaDeviceInfo]
-[BROWSER:debug] 2026-09-23T13:34:44.382Z [DEBUG] [app:devices] <Jz>:  Ignored devices on device list changed::
+[BROWSER:debug] 2026-09-24T08:51:27.772Z [DEBUG] [app:conference] (TIME) init action dispatched: 1291.3000000002794
+[BROWSER:info] 2026-09-24T08:51:27.797Z [INFO] [rtc:RTCUtils] <_s._onMediaDevicesListChanged>:  list of media devices has changed: [InputDeviceInfo, InputDeviceInfo, InputDeviceInfo, InputDeviceInfo, MediaDeviceInfo, MediaDeviceInfo, MediaDeviceInfo]
+[BROWSER:debug] 2026-09-24T08:51:27.798Z [DEBUG] [rtc:RTCUtils] Available devices:  [InputDeviceInfo, InputDeviceInfo, InputDeviceInfo, InputDeviceInfo, MediaDeviceInfo, MediaDeviceInfo, MediaDeviceInfo]
+[BROWSER:debug] 2026-09-24T08:51:27.832Z [DEBUG] [app:devices] <Jz>:  Ignored devices on device list changed::
 audioInput:
 
 audioOutput:
 
 videoInput:
 
-[BROWSER:debug] 2026-09-23T13:34:44.382Z [DEBUG] [app:devices] <Jz>:  Device list updated:
+[BROWSER:debug] 2026-09-24T08:51:27.832Z [DEBUG] [app:devices] <Jz>:  Device list updated:
 audioInput:
 		Fake Default Audio Input[default]
-		Fake Audio Input 1[6aa81441ae4c139d5b682785e7fde723760b6280349f1b7e9fdb74b404af3ecb]
-		Fake Audio Input 2[9110882365c0a1c9cede4f6983ab7b99f63217aa1cd5d2b932e410d7e7a27244]
+		Fake Audio Input 1[c86cc091eae7909215afec860714348fb42204f62500ed3002969f8e28dd02f2]
+		Fake Audio Input 2[73b46164c1689e2d68d6b75cf86a91b846bf0700617f3deee1f21bf3fca54a19]
 audioOutput:
 		Fake Default Audio Output[default]
-		Fake Audio Output 1[7ee103edea5ca6a5b5441914c6db376772267d248d6f800cba220ab40504a198]
-		Fake Audio Output 2[a42ab371fe9d19de3ccc92f2cdd5d4e140001b9b762533123db085a22e30a2c9]
+		Fake Audio Output 1[6e6a7efb532919fd6873806bd7b8dc4f9aee7acec145b757a7f7a364d9f405de]
+		Fake Audio Output 2[1157889219fca44ee2335750800b408531b7f955665b58f2232bdb08f44c1247]
 videoInput:
-		fake_device_0[a3ccbaa97894a81e3c34db40abb215050d7816e985aae585c8d9a0ee46ca5615]
-[BROWSER:debug] 2026-09-23T13:34:44.385Z [DEBUG] [app:devices] (TIME) configureInitialDevices: deviceLabels=false, performance.now=1289.2000000178814
-[BROWSER:debug] 2026-09-23T13:34:44.386Z [DEBUG] [app:devices] (TIME) configureInitialDevices -> setAudioOutputDeviceId: performance.now=1290.4000000059605
-[BROWSER:debug] 2026-09-23T13:34:44.386Z [DEBUG] [app:devices] <Zz>:  setAudioOutputDevice: undefined[default]
-[BROWSER:debug] 2026-09-23T13:34:44.410Z [DEBUG] [rtc:RTCUtils] Audio output device set to default
-[BROWSER:debug] 2026-09-23T13:34:44.417Z [DEBUG] [app:conference] (TIME) setupInitialDevices finished: 1321.6000000238419
-[BROWSER:debug] 2026-09-23T13:34:44.418Z [DEBUG] [app:conference-web] <Object.init>:  Executed conference.init with roomName: bot-test (performance.now=1322)
-[BROWSER:debug] 2026-09-23T13:34:44.443Z [DEBUG] [app:conference-web] <Object.init>:  (TIME) createInitialLocalTracks: 1347 
-[BROWSER:info] 2026-09-23T13:34:44.447Z [INFO] [app:conference-web] <Object.init>:  Dispatching connect from init since prejoin is not visible.
-[BROWSER:log] 2026-09-23T13:34:44.451Z [LOG] [app:connection] Using service URL wss://192.168.10.151:8443/xmpp-websocket
-[BROWSER:info] 2026-09-23T13:34:44.457Z [INFO] [xmpp:Moderator] <new Hc>:  Using xmpp for conference requests.
-[BROWSER:info] 2026-09-23T13:34:44.459Z [INFO] [xmpp:Xmpp] <Lu._initStrophePlugins>:  P2P STUN servers:  [Object]
-[BROWSER:debug] 2026-09-23T13:34:44.469Z [DEBUG] [xmpp:Xmpp] <Lu.initFeaturesList>:  Source-name signaling is enabled
-[BROWSER:debug] 2026-09-23T13:34:44.471Z [DEBUG] [xmpp:Xmpp] <Lu.initFeaturesList>:  Receiving multiple video streams is enabled
-[BROWSER:info] 2026-09-23T13:34:44.482Z [INFO] [xmpp:Xmpp] <Lu.connectionHandler>:  (TIME) Strophe connecting:	 1384.800000011921
-[BROWSER:debug] 2026-09-23T13:34:44.485Z [DEBUG] [app:tracks] (TIME) loadEffects() start=1351.300000011921, end=1389.5, time=38.19999998807907
-[BROWSER:info] 2026-09-23T13:34:44.487Z [INFO] [rtc:RTCUtils] <_s.<anonymous>>:  Got media constraints:  {"video":false,"audio":{"autoGainControl":false,"channelCount":1,"echoCancellation":false,"noiseSuppression":false}}
-[BROWSER:info] 2026-09-23T13:34:44.638Z [INFO] [rtc:RTCUtils] onUserMediaSuccess
-[BROWSER:debug] 2026-09-23T13:34:44.640Z [DEBUG] [app:conference-web] (TIME) createInitialLocalTracks finished: 1544.7000000178814 
-[BROWSER:debug] 2026-09-23T13:34:44.643Z [DEBUG] [app:conference-web] Resolving the initialGUM promise!
-[BROWSER:info] 2026-09-23T13:34:44.663Z [INFO] [xmpp:XmppConnection] <Fc._maybeEnableStreamResume>:  Enabling XEP-0198 stream management
-[BROWSER:info] 2026-09-23T13:34:44.663Z [INFO] [xmpp:XmppConnection] <Fc._maybeStartWSKeepAlive>:  WebSocket keep alive interval: 60000ms
-[BROWSER:debug] 2026-09-23T13:34:44.663Z [DEBUG] [xmpp:XmppConnection] <Fc._maybeStartWSKeepAlive>:  Scheduling next WebSocket keep-alive in 5000ms
-[BROWSER:info] 2026-09-23T13:34:44.664Z [INFO] [xmpp:strophe.ping] <kc.startInterval>:  XMPP pings will be sent every 10000 ms
-[BROWSER:info] 2026-09-23T13:34:44.664Z [INFO] [xmpp:Xmpp] <Lu.connectionHandler>:  (TIME) Strophe connected:	 1568.4000000059605
-[BROWSER:info] 2026-09-23T13:34:44.665Z [INFO] [xmpp:Xmpp] <Lu.connectionHandler>:  My Jabber ID: 9ed18785-06ad-4c88-bea5-a8f98ab74324@meet.jitsi/dlH2OztTDTzM
-[BROWSER:info] 2026-09-23T13:34:44.666Z [INFO] [app:dialog] <kg>:  Hide dialog: LoginDialog
-[BROWSER:debug] 2026-09-23T13:34:44.667Z [DEBUG] [app:base-conference] On connection established: prejoinVisible: false, initialGUMPromiseExists=true, promiseExists=true
-[BROWSER:info] 2026-09-23T13:34:44.672Z [INFO] [settings:Settings] generated stats id Kristoffer-6vZ
-[BROWSER:info] 2026-09-23T13:34:44.673Z [INFO] [xmpp:Xmpp] <Lu.createRoom>:  JID 9ed18785-06ad-4c88-bea5-a8f98ab74324@meet.jitsi/dlH2OztTDTzM using MUC nickname 9ed18785
-[BROWSER:info] 2026-09-23T13:34:44.673Z [INFO] [xmpp:ChatRoom] <new yl>:  Joining MUC as bot-test@muc.meet.jitsi/9ed18785
-[BROWSER:info] 2026-09-23T13:34:44.679Z [INFO] [qc:CodecSelection] <new bh>:  Codec preference order for jvb connection is av1,vp9,vp8,h264
-[BROWSER:info] 2026-09-23T13:34:44.680Z [INFO] [qc:CodecSelection] <new bh>:  Codec preference order for p2p connection is av1,vp9,vp8,h264
-[BROWSER:info] 2026-09-23T13:34:44.683Z [INFO] [stats:AvgRTPStatsReporter] <new Gh>:  Avg RTP stats will be calculated every 15 samples
-[BROWSER:info] 2026-09-23T13:34:44.683Z [INFO] [core:JitsiConference] <new Dm>:  backToP2PDelay: 5
-[BROWSER:debug] 2026-09-23T13:34:44.683Z [DEBUG] [videosipgw:VideoSIPGW] <new pm>:  creating VideoSIPGW
-[BROWSER:info] 2026-09-23T13:34:44.684Z [INFO] [core:JitsiConference] <new Dm>:  End-to-End Encryption is supported
-[BROWSER:debug] 2026-09-23T13:34:44.686Z [DEBUG] [e2ee:OlmAdapter] <rh._bootstrapOlm>:  Initializing Olm...
-[BROWSER:info] 2026-09-23T13:34:44.693Z [INFO] [app:jwt] JWT avatarURL temporarily not loaded till jwt is verified on connect
-[BROWSER:info] 2026-09-23T13:34:44.704Z [INFO] [app:dialog] <kg>:  Hide dialog: undefined
-[BROWSER:info] 2026-09-23T13:34:44.714Z [INFO] [xmpp:Moderator] <conferenceRequestSent.Promise.then.conferenceRequestSent>:  Sending conference request over XMPP to focus.meet.jitsi
-[BROWSER:info] 2026-09-23T13:34:44.714Z [INFO] [settings:Settings] generated id bdb04e463c724c87940aa4d1866b5e2b
-[BROWSER:debug] 2026-09-23T13:34:44.718Z [DEBUG] [e2ee:OlmAdapter] <rh._bootstrapOlm>:  Olm 3.2.15 initialized
-[BROWSER:debug] 2026-09-23T13:34:44.719Z [DEBUG] [e2ee:OlmAdapter] <rh._onIdKeysReady>:  Olm id key ready: [object Object]
-[BROWSER:log] 2026-09-23T13:34:44.719Z [LOG] [app:conference-web] Initialized with 0 local tracks
-[BROWSER:error] 2026-09-23T13:34:44.737Z [ERROR] [xmpp:StropheErrorHandler] <Vc>:  Strophe error: {"reason":"service-unavailable","raw":"<error xmlns=\"jabber:client\" type=\"cancel\"><service-unavailable xmlns=\"urn:ietf:params:xml:ns:xmpp-stanzas\"/></error>","domain":"meet.jitsi","operation":"get STUN/TURN credentials (extdisco:2)","userJid":"9ed18785-06ad-4c88-bea5-a8f98ab74324@meet.jitsi/dlH2OztTDTzM","xmlns":"urn:xmpp:extdisco:2"}
-[BROWSER:warning] 2026-09-23T13:34:44.737Z [WARN] [xmpp:strophe.jingle] getting turn credentials with extdisco:2 failed, trying extdisco:1
-[BROWSER:error] 2026-09-23T13:34:44.756Z [ERROR] [xmpp:StropheErrorHandler] <Vc>:  Strophe error: {"reason":"service-unavailable","raw":"<error xmlns=\"jabber:client\" type=\"cancel\"><service-unavailable xmlns=\"urn:ietf:params:xml:ns:xmpp-stanzas\"/></error>","domain":"meet.jitsi","operation":"get STUN/TURN credentials (extdisco:1)","userJid":"9ed18785-06ad-4c88-bea5-a8f98ab74324@meet.jitsi/dlH2OztTDTzM","xmlns":"urn:xmpp:extdisco:1"}
-[BROWSER:warning] 2026-09-23T13:34:44.756Z [WARN] [xmpp:strophe.jingle] getting turn credentials failed
-[BROWSER:warning] 2026-09-23T13:34:44.756Z [WARN] [xmpp:strophe.jingle] is mod_turncredentials or similar installed and configured?
-[BROWSER:info] 2026-09-23T13:34:44.757Z [INFO] [xmpp:Moderator] <Hc._handleSuccess>:  Adding focus JID: focus@auth.meet.jitsi
-[BROWSER:info] 2026-09-23T13:34:44.758Z [INFO] [xmpp:Moderator] <Hc._handleSuccess>:  Authentication enabled: false
-[BROWSER:info] 2026-09-23T13:34:44.760Z [INFO] [xmpp:Moderator] <Hc._handleSuccess>:  Sip gateway enabled: undefined
-[BROWSER:info] 2026-09-23T13:34:44.760Z [INFO] [xmpp:Moderator] <Hc._handleSuccess>:  Conference-request successful, ready to join the MUC.
-[BROWSER:info] 2026-09-23T13:34:44.843Z [INFO] [xmpp:ChatRoom] <yl.onPresence>:  (TIME) MUC join started:	 1747
-[BROWSER:info] 2026-09-23T13:34:44.846Z [INFO] [xmpp:ChatRoom] <yl.onPresence>:  entered bot-test@muc.meet.jitsi/acbaf111
-[BROWSER:log] 2026-09-23T13:34:44.859Z [LOG] [app:conference-web] <Mn.<anonymous>>:  USER acbaf111 connected
-[BROWSER:info] 2026-09-23T13:34:44.870Z [INFO] [xmpp:ChatRoom] <yl.onPresence>:  entered bot-test@muc.meet.jitsi/focus
-[BROWSER:log] 2026-09-23T13:34:44.874Z [LOG] [app:etherpad] Etherpad is enabled
-[BROWSER:info] 2026-09-23T13:34:44.874Z [INFO] [misc:ComponentsVersions] Got focus version: 1.0.1205
-[BROWSER:info] 2026-09-23T13:34:44.880Z [INFO] [core:JitsiConference] <Dm._updateProperties>:  Audio unmute permissions set by Jicofo to false
-[BROWSER:info] 2026-09-23T13:34:44.882Z [INFO] [core:JitsiConference] <Dm._updateProperties>:  Video unmute permissions set by Jicofo to false
-[BROWSER:debug] 2026-09-23T13:34:44.883Z [DEBUG] [core:JitsiConference] <Dm._shouldBeInP2PMode>:  P2P? peerCount: 1, hasBotPeer: false => true
-[BROWSER:info] 2026-09-23T13:34:44.883Z [INFO] [core:JitsiConference] <Dm._maybeStartOrStopP2P>:  Will start P2P with: bot-test@muc.meet.jitsi/acbaf111 after 5 seconds...
-[BROWSER:debug] 2026-09-23T13:34:44.885Z [DEBUG] [xmpp:RoomMetadata] <ll._handleMessages>:  Received metadata update {"services":{}}
-[BROWSER:error] 2026-09-23T13:34:44.886Z [ERROR] [util:XMLUtils] <xa>:  findAll error: :scope>services>service TypeError: e.querySelectorAll is not a function
+		fake_device_0[16c201dd113c1ed84288b62689e8e59dca6f3b28010581a0f174b91efa8251ff]
+[BROWSER:debug] 2026-09-24T08:51:27.836Z [DEBUG] [app:devices] (TIME) configureInitialDevices: deviceLabels=false, performance.now=1355.6000000000931
+[BROWSER:debug] 2026-09-24T08:51:27.837Z [DEBUG] [app:devices] (TIME) configureInitialDevices -> setAudioOutputDeviceId: performance.now=1356.9000000003725
+[BROWSER:debug] 2026-09-24T08:51:27.837Z [DEBUG] [app:devices] <Zz>:  setAudioOutputDevice: undefined[default]
+[BROWSER:debug] 2026-09-24T08:51:27.865Z [DEBUG] [rtc:RTCUtils] Audio output device set to default
+[BROWSER:debug] 2026-09-24T08:51:27.874Z [DEBUG] [app:conference] (TIME) setupInitialDevices finished: 1394.2000000001863
+[BROWSER:debug] 2026-09-24T08:51:27.875Z [DEBUG] [app:conference-web] <Object.init>:  Executed conference.init with roomName: bot-test (performance.now=1395.1000000000931)
+[BROWSER:debug] 2026-09-24T08:51:27.902Z [DEBUG] [app:conference-web] <Object.init>:  (TIME) createInitialLocalTracks: 1422.2000000001863 
+[BROWSER:info] 2026-09-24T08:51:27.907Z [INFO] [app:conference-web] <Object.init>:  Dispatching connect from init since prejoin is not visible.
+[BROWSER:log] 2026-09-24T08:51:27.911Z [LOG] [app:connection] Using service URL wss://192.168.10.151:8443/xmpp-websocket
+[BROWSER:info] 2026-09-24T08:51:27.916Z [INFO] [xmpp:Moderator] <new Hc>:  Using xmpp for conference requests.
+[BROWSER:info] 2026-09-24T08:51:27.918Z [INFO] [xmpp:Xmpp] <Lu._initStrophePlugins>:  P2P STUN servers:  [Object]
+[BROWSER:debug] 2026-09-24T08:51:27.927Z [DEBUG] [xmpp:Xmpp] <Lu.initFeaturesList>:  Source-name signaling is enabled
+[BROWSER:debug] 2026-09-24T08:51:27.929Z [DEBUG] [xmpp:Xmpp] <Lu.initFeaturesList>:  Receiving multiple video streams is enabled
+[BROWSER:info] 2026-09-24T08:51:27.938Z [INFO] [xmpp:Xmpp] <Lu.connectionHandler>:  (TIME) Strophe connecting:	 1457
+[BROWSER:debug] 2026-09-24T08:51:27.941Z [DEBUG] [app:tracks] (TIME) loadEffects() start=1427, end=1461.4000000003725, time=34.40000000037253
+[BROWSER:info] 2026-09-24T08:51:27.944Z [INFO] [rtc:RTCUtils] <_s.<anonymous>>:  Got media constraints:  {"video":false,"audio":{"autoGainControl":false,"channelCount":1,"echoCancellation":false,"noiseSuppression":false}}
+[BROWSER:info] 2026-09-24T08:51:28.107Z [INFO] [rtc:RTCUtils] onUserMediaSuccess
+[BROWSER:debug] 2026-09-24T08:51:28.109Z [DEBUG] [app:conference-web] (TIME) createInitialLocalTracks finished: 1629.2000000001863 
+[BROWSER:debug] 2026-09-24T08:51:28.112Z [DEBUG] [app:conference-web] Resolving the initialGUM promise!
+[BROWSER:info] 2026-09-24T08:51:28.132Z [INFO] [xmpp:XmppConnection] <Fc._maybeEnableStreamResume>:  Enabling XEP-0198 stream management
+[BROWSER:info] 2026-09-24T08:51:28.133Z [INFO] [xmpp:XmppConnection] <Fc._maybeStartWSKeepAlive>:  WebSocket keep alive interval: 60000ms
+[BROWSER:debug] 2026-09-24T08:51:28.133Z [DEBUG] [xmpp:XmppConnection] <Fc._maybeStartWSKeepAlive>:  Scheduling next WebSocket keep-alive in 5000ms
+[BROWSER:info] 2026-09-24T08:51:28.134Z [INFO] [xmpp:strophe.ping] <kc.startInterval>:  XMPP pings will be sent every 10000 ms
+[BROWSER:info] 2026-09-24T08:51:28.134Z [INFO] [xmpp:Xmpp] <Lu.connectionHandler>:  (TIME) Strophe connected:	 1653.9000000003725
+[BROWSER:info] 2026-09-24T08:51:28.134Z [INFO] [xmpp:Xmpp] <Lu.connectionHandler>:  My Jabber ID: f4ace922-27e5-47c8-8116-886cc2e1260e@meet.jitsi/BR2sVJkPHyIF
+[BROWSER:info] 2026-09-24T08:51:28.135Z [INFO] [app:dialog] <kg>:  Hide dialog: LoginDialog
+[BROWSER:debug] 2026-09-24T08:51:28.137Z [DEBUG] [app:base-conference] On connection established: prejoinVisible: false, initialGUMPromiseExists=true, promiseExists=true
+[BROWSER:info] 2026-09-24T08:51:28.142Z [INFO] [settings:Settings] generated stats id Pierce-NEc
+[BROWSER:info] 2026-09-24T08:51:28.143Z [INFO] [xmpp:Xmpp] <Lu.createRoom>:  JID f4ace922-27e5-47c8-8116-886cc2e1260e@meet.jitsi/BR2sVJkPHyIF using MUC nickname f4ace922
+[BROWSER:info] 2026-09-24T08:51:28.143Z [INFO] [xmpp:ChatRoom] <new yl>:  Joining MUC as bot-test@muc.meet.jitsi/f4ace922
+[BROWSER:info] 2026-09-24T08:51:28.149Z [INFO] [qc:CodecSelection] <new bh>:  Codec preference order for jvb connection is av1,vp9,vp8,h264
+[BROWSER:info] 2026-09-24T08:51:28.151Z [INFO] [qc:CodecSelection] <new bh>:  Codec preference order for p2p connection is av1,vp9,vp8,h264
+[BROWSER:info] 2026-09-24T08:51:28.153Z [INFO] [stats:AvgRTPStatsReporter] <new Gh>:  Avg RTP stats will be calculated every 15 samples
+[BROWSER:info] 2026-09-24T08:51:28.154Z [INFO] [core:JitsiConference] <new Dm>:  backToP2PDelay: 5
+[BROWSER:debug] 2026-09-24T08:51:28.154Z [DEBUG] [videosipgw:VideoSIPGW] <new pm>:  creating VideoSIPGW
+[BROWSER:info] 2026-09-24T08:51:28.154Z [INFO] [core:JitsiConference] <new Dm>:  End-to-End Encryption is supported
+[BROWSER:debug] 2026-09-24T08:51:28.156Z [DEBUG] [e2ee:OlmAdapter] <rh._bootstrapOlm>:  Initializing Olm...
+[BROWSER:info] 2026-09-24T08:51:28.164Z [INFO] [app:jwt] JWT avatarURL temporarily not loaded till jwt is verified on connect
+[BROWSER:info] 2026-09-24T08:51:28.175Z [INFO] [app:dialog] <kg>:  Hide dialog: undefined
+[BROWSER:info] 2026-09-24T08:51:28.186Z [INFO] [xmpp:Moderator] <conferenceRequestSent.Promise.then.conferenceRequestSent>:  Sending conference request over XMPP to focus.meet.jitsi
+[BROWSER:info] 2026-09-24T08:51:28.187Z [INFO] [settings:Settings] generated id 0de557bb4d7e48d39a9059a4e56942e4
+[BROWSER:debug] 2026-09-24T08:51:28.191Z [DEBUG] [e2ee:OlmAdapter] <rh._bootstrapOlm>:  Olm 3.2.15 initialized
+[BROWSER:debug] 2026-09-24T08:51:28.191Z [DEBUG] [e2ee:OlmAdapter] <rh._onIdKeysReady>:  Olm id key ready: [object Object]
+[BROWSER:log] 2026-09-24T08:51:28.191Z [LOG] [app:conference-web] Initialized with 0 local tracks
+[BROWSER:error] 2026-09-24T08:51:28.206Z [ERROR] [xmpp:StropheErrorHandler] <Vc>:  Strophe error: {"reason":"service-unavailable","raw":"<error xmlns=\"jabber:client\" type=\"cancel\"><service-unavailable xmlns=\"urn:ietf:params:xml:ns:xmpp-stanzas\"/></error>","domain":"meet.jitsi","operation":"get STUN/TURN credentials (extdisco:2)","userJid":"f4ace922-27e5-47c8-8116-886cc2e1260e@meet.jitsi/BR2sVJkPHyIF","xmlns":"urn:xmpp:extdisco:2"}
+[BROWSER:warning] 2026-09-24T08:51:28.207Z [WARN] [xmpp:strophe.jingle] getting turn credentials with extdisco:2 failed, trying extdisco:1
+[BROWSER:error] 2026-09-24T08:51:28.225Z [ERROR] [xmpp:StropheErrorHandler] <Vc>:  Strophe error: {"reason":"service-unavailable","raw":"<error xmlns=\"jabber:client\" type=\"cancel\"><service-unavailable xmlns=\"urn:ietf:params:xml:ns:xmpp-stanzas\"/></error>","domain":"meet.jitsi","operation":"get STUN/TURN credentials (extdisco:1)","userJid":"f4ace922-27e5-47c8-8116-886cc2e1260e@meet.jitsi/BR2sVJkPHyIF","xmlns":"urn:xmpp:extdisco:1"}
+[BROWSER:warning] 2026-09-24T08:51:28.226Z [WARN] [xmpp:strophe.jingle] getting turn credentials failed
+[BROWSER:warning] 2026-09-24T08:51:28.226Z [WARN] [xmpp:strophe.jingle] is mod_turncredentials or similar installed and configured?
+[BROWSER:info] 2026-09-24T08:51:28.227Z [INFO] [xmpp:Moderator] <Hc._handleSuccess>:  Adding focus JID: focus@auth.meet.jitsi
+[BROWSER:info] 2026-09-24T08:51:28.227Z [INFO] [xmpp:Moderator] <Hc._handleSuccess>:  Authentication enabled: false
+[BROWSER:info] 2026-09-24T08:51:28.230Z [INFO] [xmpp:Moderator] <Hc._handleSuccess>:  Sip gateway enabled: undefined
+[BROWSER:info] 2026-09-24T08:51:28.230Z [INFO] [xmpp:Moderator] <Hc._handleSuccess>:  Conference-request successful, ready to join the MUC.
+[BROWSER:info] 2026-09-24T08:51:28.314Z [INFO] [xmpp:ChatRoom] <yl.onPresence>:  (TIME) MUC join started:	 1833.4000000003725
+[BROWSER:info] 2026-09-24T08:51:28.317Z [INFO] [xmpp:ChatRoom] <yl.onPresence>:  entered bot-test@muc.meet.jitsi/focus
+[BROWSER:log] 2026-09-24T08:51:28.319Z [LOG] [app:etherpad] Etherpad is enabled
+[BROWSER:info] 2026-09-24T08:51:28.319Z [INFO] [misc:ComponentsVersions] Got focus version: 1.0.1205
+[BROWSER:info] 2026-09-24T08:51:28.324Z [INFO] [core:JitsiConference] <Dm._updateProperties>:  Audio unmute permissions set by Jicofo to false
+[BROWSER:info] 2026-09-24T08:51:28.325Z [INFO] [core:JitsiConference] <Dm._updateProperties>:  Video unmute permissions set by Jicofo to false
+[BROWSER:debug] 2026-09-24T08:51:28.326Z [DEBUG] [core:JitsiConference] <Dm._shouldBeInP2PMode>:  P2P? peerCount: 0, hasBotPeer: false => false
+[BROWSER:info] 2026-09-24T08:51:28.327Z [INFO] [xmpp:ChatRoom] <yl.onPresence>:  entered bot-test@muc.meet.jitsi/abc0da5d
+[BROWSER:log] 2026-09-24T08:51:28.349Z [LOG] [app:conference-web] <Mn.<anonymous>>:  USER abc0da5d connected
+[BROWSER:debug] 2026-09-24T08:51:28.371Z [DEBUG] [xmpp:RoomMetadata] <ll._handleMessages>:  Received metadata update {"services":{}}
+[BROWSER:error] 2026-09-24T08:51:28.372Z [ERROR] [util:XMLUtils] <xa>:  findAll error: :scope>services>service TypeError: e.querySelectorAll is not a function
     at xa (https://192.168.10.151:8443/libs/lib-jitsi-meet.min.js?v=9442:2:232799)
     at Su.onReceiveStunAndTurnCredentials (https://192.168.10.151:8443/libs/lib-jitsi-meet.min.js?v=9442:2:503103)
     at Mn.<anonymous> (https://192.168.10.151:8443/libs/lib-jitsi-meet.min.js?v=9442:2:124467)
@@ -143,116 +142,174 @@ videoInput:
     at k.Connection._dataRecv (https://192.168.10.151:8443/libs/lib-jitsi-meet.min.js?v=9442:2:1106839)
     at k.Websocket._onMessage (https://192.168.10.151:8443/libs/lib-jitsi-meet.min.js?v=9442:2:1134598)
     at socket.onmessage (https://192.168.10.151:8443/libs/lib-jitsi-meet.min.js?v=9442:2:1132093)
-[BROWSER:info] 2026-09-23T13:34:44.890Z [INFO] [xmpp:ChatRoom] <yl.onPresence>:  (TIME) MUC joined:	 1794.5
-[BROWSER:info] 2026-09-23T13:34:44.911Z [INFO] [app:dialog] <kg>:  Hide dialog: LoginDialog
-[BROWSER:info] 2026-09-23T13:34:44.914Z [INFO] [app:dialog] <kg>:  Hide dialog: PasswordRequiredPrompt
-[BROWSER:debug] 2026-09-23T13:34:44.937Z [DEBUG] [core:JitsiConference] <Dm._shouldBeInP2PMode>:  P2P? peerCount: 1, hasBotPeer: false => true
-[BROWSER:info] 2026-09-23T13:34:44.937Z [INFO] [core:JitsiConference] <Dm._maybeStartOrStopP2P>:  Will start P2P with: bot-test@muc.meet.jitsi/acbaf111
-[BROWSER:info] 2026-09-23T13:34:44.938Z [INFO] [core:JitsiConference] <Dm._maybeClearDeferredStartP2P>:  Cleared deferred start P2P task
-[BROWSER:info] 2026-09-23T13:34:44.939Z [INFO] [core:JitsiConference] <Dm._startP2PSession>:  Created new P2P JingleSession bot-test@muc.meet.jitsi/9ed18785 bot-test@muc.meet.jitsi/acbaf111
-[BROWSER:info] 2026-09-23T13:34:44.943Z [INFO] [rtc:TraceablePeerConnection] <new rd>:  Using RTCRtpTransceiver#setCodecPreferences for codec selection
-[BROWSER:info] 2026-09-23T13:34:44.943Z [INFO] [rtc:TraceablePeerConnection] <new rd>:  Create new TPC[id=1,type=P2P]
-[BROWSER:debug] 2026-09-23T13:34:44.944Z [DEBUG] [xmpp:JingleSessionPC] <vu.invite>:  JingleSessionPC[session=P2P,initiator=true,sid=b4dd403e443c] Executing invite task
-[BROWSER:info] 2026-09-23T13:34:44.945Z [INFO] [app:conference-web] <Mn.<anonymous>>:  My role changed, new role: participant
-[BROWSER:info] 2026-09-23T13:34:44.965Z [INFO] [xmpp:ChatRoom] <yl.onMessage>:  Subject is changed to 
-[BROWSER:log] [CLIENT] Participant joined: {"id":"acbaf111","displayName":"maroua","formattedDisplayName":"maroua"}
-[BROWSER:log] 2026-09-23T13:34:45.002Z [LOG] [app:etherpad] Etherpad is enabled
-[BROWSER:error] 2026-09-23T13:34:45.005Z [ERROR] [app:base-conference] Error while requesting wake lock for screen: NotAllowedError: Wake Lock permission request denied
-[BROWSER:log] [CLIENT] Conference joined. {roomName: bot-test, id: 9ed18785, displayName: Meeting-Minute-Bot, formattedDisplayName: Meeting-Minute-Bot (me), avatarURL: }
-[BROWSER:info] 2026-09-23T13:34:45.022Z [INFO] [xmpp:strophe.jingle] <Su.onJingle>:  Found a JSON-encoded element in session-initiate, translating to standard Jingle.
-[BROWSER:debug] 2026-09-23T13:34:45.023Z [DEBUG] [xmpp:strophe.jingle] <Su.onJingle>:  Received session-initiate from bot-test@muc.meet.jitsi/focus with sources=jvb:[1895297607,4139899423]
-[BROWSER:info] 2026-09-23T13:34:45.023Z [INFO] [xmpp:strophe.jingle] <Su.onJingle>:  (TIME) received session-initiate:	1925.6000000238419, bridgeSessionId=4571391a67ad-5bd12672-a630-497f-be61-58f268fda40d
-[BROWSER:info] 2026-09-23T13:34:45.026Z [INFO] [rtc:TraceablePeerConnection] <new rd>:  Using RTCRtpTransceiver#setCodecPreferences for codec selection
-[BROWSER:info] 2026-09-23T13:34:45.027Z [INFO] [rtc:TraceablePeerConnection] <new rd>:  Create new TPC[id=2,type=JVB]
-[BROWSER:info] 2026-09-23T13:34:45.027Z [INFO] [core:JitsiConference] <Dm._setBridgeChannel>:  SCTP: offered=true, prefered=true
-[BROWSER:debug] 2026-09-23T13:34:45.028Z [DEBUG] [rtc:BridgeChannel] <new ys>:  constructor() with peerconnection
-[BROWSER:debug] 2026-09-23T13:34:45.030Z [DEBUG] [xmpp:JingleSessionPC] <vu.setOfferAnswerCycle>:  JingleSessionPC[session=JVB,initiator=false,sid=4ci165o055nqk] Executing setOfferAnswerCycle task
-[BROWSER:debug] 2026-09-23T13:34:45.036Z [DEBUG] [xmpp:JingleSessionPC] <vu._renegotiate>:  JingleSessionPC[session=JVB,initiator=false,sid=4ci165o055nqk] Renegotiate: setting remote description
-[BROWSER:debug] 2026-09-23T13:34:45.051Z [DEBUG] [ui:videolayout] Scheduled large video update for acbaf111
-[BROWSER:debug] 2026-09-23T13:34:45.051Z [DEBUG] [ui:VideoContainer] <BU.setStream>:  SetStream on the large video is called without a stream argument!
-[BROWSER:debug] 2026-09-23T13:34:45.052Z [DEBUG] [ui:videolayout] scheduleLargeVideoUpdate: Remote track undefined, isVideoMuted=true, streamingStatusActive=false, isVideoRenderable=false, showAvatar=true
-[BROWSER:debug] 2026-09-23T13:34:45.073Z [DEBUG] [xmpp:JingleSessionPC] <vu._sendSessionInitiate>:  JingleSessionPC[session=P2P,initiator=true,sid=b4dd403e443c] Session-initiate:  JSHandle@node
-[BROWSER:debug] 2026-09-23T13:34:45.076Z [DEBUG] [xmpp:JingleSessionPC] <vu.invite>:  JingleSessionPC[session=P2P,initiator=true,sid=b4dd403e443c] invite executed - OK
-[BROWSER:debug] 2026-09-23T13:34:45.082Z [DEBUG] [xmpp:JingleSessionPC] <vu._renegotiate>:  JingleSessionPC[session=JVB,initiator=false,sid=4ci165o055nqk] Renegotiate: creating answer
-[BROWSER:debug] 2026-09-23T13:34:45.089Z [DEBUG] [xmpp:JingleSessionPC] <vu._renegotiate>:  JingleSessionPC[session=JVB,initiator=false,sid=4ci165o055nqk] Renegotiate: setting local description
-[BROWSER:debug] 2026-09-23T13:34:45.109Z [DEBUG] [xmpp:JingleSessionPC] JingleSessionPC[session=JVB,initiator=false,sid=4ci165o055nqk] setOfferAnswerCycle task done
-[BROWSER:info] 2026-09-23T13:34:45.111Z [INFO] [xmpp:JingleSessionPC] <vu._sendSessionAccept>:  JingleSessionPC[session=JVB,initiator=false,sid=4ci165o055nqk] Sending session-accept
-[BROWSER:debug] 2026-09-23T13:34:45.111Z [DEBUG] [xmpp:JingleSessionPC] <vu._sendSessionAccept>:  JSHandle@node
-[BROWSER:debug] 2026-09-23T13:34:45.119Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "ufrag" = "WX/y"
-[BROWSER:debug] 2026-09-23T13:34:45.120Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "network-id" = "1"
-[BROWSER:debug] 2026-09-23T13:34:45.120Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "ufrag" = "WX/y"
-[BROWSER:debug] 2026-09-23T13:34:45.121Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "network-id" = "2"
-[BROWSER:debug] 2026-09-23T13:34:45.122Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "ufrag" = "WX/y"
-[BROWSER:debug] 2026-09-23T13:34:45.122Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "network-id" = "3"
-[BROWSER:info] 2026-09-23T13:34:45.128Z [INFO] [xmpp:JingleSessionPC] <peerconnection.oniceconnectionstatechange>:  (TIME) ICE checking JVB:	 2031.800000011921
-[BROWSER:info] 2026-09-23T13:34:45.129Z [INFO] [xmpp:JingleSessionPC] <peerconnection.onconnectionstatechange>:  (TIME) JVB PC state is now connecting (ICE state checking):	 2033.5
-[BROWSER:info] 2026-09-23T13:34:45.133Z [INFO] [xmpp:JingleSessionPC] <peerconnection.oniceconnectionstatechange>:  (TIME) ICE connected JVB:	 2037
-[BROWSER:debug] 2026-09-23T13:34:45.136Z [DEBUG] [rtc:RemoteAudioWedgeDetector] <Ol.start>:  Starting remote audio wedge detector (wedgeTimeout=15000ms), driven by the stats collector inbound audio stats
-[BROWSER:debug] 2026-09-23T13:34:45.185Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "ufrag" = "WX/y"
-[BROWSER:debug] 2026-09-23T13:34:45.185Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "network-id" = "1"
-[BROWSER:debug] 2026-09-23T13:34:45.186Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "ufrag" = "WX/y"
-[BROWSER:debug] 2026-09-23T13:34:45.186Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "network-id" = "2"
-[BROWSER:debug] 2026-09-23T13:34:45.187Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "ufrag" = "WX/y"
-[BROWSER:debug] 2026-09-23T13:34:45.187Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "network-id" = "3"
-[BROWSER:debug] 2026-09-23T13:34:45.188Z [DEBUG] [xmpp:JingleSessionPC] <vu._sendIceCandidate>:  JingleSessionPC[session=P2P,initiator=true,sid=b4dd403e443c] _sendIceCandidate: last candidate
-[BROWSER:debug] 2026-09-23T13:34:45.270Z [DEBUG] [xmpp:JingleSessionPC] <vu._sendIceCandidates>:  JingleSessionPC[session=P2P,initiator=true,sid=b4dd403e443c] _sendIceCandidates count: 6
-[BROWSER:debug] 2026-09-23T13:34:45.271Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "ufrag" = "WX/y"
-[BROWSER:debug] 2026-09-23T13:34:45.271Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "network-id" = "1"
-[BROWSER:debug] 2026-09-23T13:34:45.272Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "ufrag" = "WX/y"
-[BROWSER:debug] 2026-09-23T13:34:45.272Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "network-id" = "2"
-[BROWSER:debug] 2026-09-23T13:34:45.272Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "ufrag" = "WX/y"
-[BROWSER:debug] 2026-09-23T13:34:45.272Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "network-id" = "3"
-[BROWSER:debug] 2026-09-23T13:34:45.272Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "ufrag" = "WX/y"
-[BROWSER:debug] 2026-09-23T13:34:45.272Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "network-id" = "1"
-[BROWSER:debug] 2026-09-23T13:34:45.272Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "ufrag" = "WX/y"
-[BROWSER:debug] 2026-09-23T13:34:45.273Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "network-id" = "2"
-[BROWSER:debug] 2026-09-23T13:34:45.273Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "ufrag" = "WX/y"
-[BROWSER:debug] 2026-09-23T13:34:45.273Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "network-id" = "3"
-[BROWSER:info] 2026-09-23T13:34:45.907Z [INFO] [xmpp:JingleSessionPC] <connection.sendIQ.Vc.isP2P>:  JingleSessionPC[session=P2P,initiator=true,sid=b4dd403e443c] Got RESULT for "session-initiate"
-[BROWSER:info] 2026-09-23T13:34:46.112Z [INFO] [app:redux] <Object.persistState>:  redux state persisted. d97349e83732b040c4afe48a92933651 -> 654ed2619db70e86d3059a25db306b4c
-[BROWSER:debug] 2026-09-23T13:34:46.313Z [DEBUG] [xmpp:JingleSessionPC] JingleSessionPC[session=JVB,initiator=false,sid=4ci165o055nqk] Resuming the modification queue after session is established!
-[BROWSER:info] 2026-09-23T13:34:46.316Z [INFO] [stats:AvgRTPStatsReporter] <Gh.t._onJvb121StatusChanged>:  Resetting JVB avg RTP stats
-[BROWSER:info] 2026-09-23T13:34:46.333Z [INFO] [xmpp:JingleSessionPC] <peerconnection.onconnectionstatechange>:  (TIME) JVB PC state is now connected (ICE state connected):	 3236.800000011921
-[BROWSER:info] 2026-09-23T13:34:46.339Z [INFO] [rtc:BridgeChannel] <e.onopen>:  datachannel channel opened
-[BROWSER:info] 2026-09-23T13:34:46.339Z [INFO] [core:JitsiConferenceEventManager] <Mn.<anonymous>>:  (TIME) data.channel.opened:	 3243.300000011921
-[BROWSER:info] 2026-09-23T13:34:46.344Z [INFO] [rtc:BridgeChannel] <ys.sendReceiverVideoConstraintsMessage>:  Sending ReceiverVideoConstraints with {"assumedBandwidthBps":-1,"lastN":-1}
-[BROWSER:info] 2026-09-23T13:34:46.346Z [INFO] [rtc:BridgeChannel] <e.onmessage>:  New forwarded sources: 
-[BROWSER:debug] 2026-09-23T13:34:46.347Z [DEBUG] [rtc:RTC] <cd._onForwardedSourcesChanged>:  Fowarded sources changed leaving=, entering= at 1790170486347
-[BROWSER:debug] 2026-09-23T13:34:46.347Z [DEBUG] [rtc:BridgeChannel] <e.onmessage>:  Dominant speaker: acbaf111, previous speakers: 
-[BROWSER:debug] 2026-09-23T13:34:46.365Z [DEBUG] [xmpp:strophe.jingle] <Su.onJingle>:  Received session-accept from bot-test@muc.meet.jitsi/acbaf111 with ssrcs=
-[BROWSER:info] 2026-09-23T13:34:46.366Z [INFO] [core:JitsiConference] <Dm.onCallAccepted>:  P2P setAnswer
-[BROWSER:debug] 2026-09-23T13:34:46.366Z [DEBUG] [xmpp:JingleSessionPC] <vu.setAnswer>:  JingleSessionPC[session=P2P,initiator=true,sid=b4dd403e443c] Executing setAnswer task
-[BROWSER:info] 2026-09-23T13:34:46.375Z [INFO] [rtc:TraceablePeerConnection] <rd._remoteTrackAdded>:  TPC[id=1,type=P2P] Received track event for remote stream[id=acbaf111-audio-0-2,type=audio]
-[BROWSER:info] 2026-09-23T13:34:46.378Z [INFO] [rtc:TraceablePeerConnection] <rd._createRemoteTrack>:  TPC[id=1,type=P2P] creating remote track[endpoint=acbaf111,ssrc=1337324067,type=audio,sourceName=acbaf111-a0]
-[BROWSER:debug] 2026-09-23T13:34:46.378Z [DEBUG] [rtc:JitsiRemoteTrack] <new Wa>:  New remote track created: RemoteTrack[userID: acbaf111, type: audio, ssrc: 1337324067, p2p: true, sourceName: acbaf111-a0, status: {readyState: live, muted: true, enabled: true}]
-[BROWSER:info] 2026-09-23T13:34:46.379Z [INFO] [core:JitsiConference] <Dm.onRemoteTrackAdded>:  Trying to add remote P2P track, when not in P2P - IGNORED
-[BROWSER:debug] 2026-09-23T13:34:46.379Z [DEBUG] [xmpp:JingleSessionPC] <vu.setAnswer>:  JingleSessionPC[session=P2P,initiator=true,sid=b4dd403e443c] Resuming the modification queue after session is established!
-[BROWSER:debug] 2026-09-23T13:34:46.381Z [DEBUG] [xmpp:JingleSessionPC] <vu._sendContentModify>:  JSHandle@node
-[BROWSER:debug] 2026-09-23T13:34:46.384Z [DEBUG] [xmpp:JingleSessionPC] <vu.setAnswer>:  JingleSessionPC[session=P2P,initiator=true,sid=b4dd403e443c] setAnswer task done
-[BROWSER:info] 2026-09-23T13:34:46.386Z [INFO] [xmpp:JingleSessionPC] <vu.setVideoCodecs>:  JingleSessionPC[session=P2P,initiator=true,sid=b4dd403e443c] setVideoCodecs: codecList=vp9,vp8,h264, screenshareCodec=undefined
-[BROWSER:debug] 2026-09-23T13:34:46.387Z [DEBUG] [xmpp:JingleSessionPC] <vu.setVideoCodecs>:  JingleSessionPC[session=P2P,initiator=true,sid=b4dd403e443c] Queued setVideoCodecs task
-[BROWSER:info] 2026-09-23T13:34:46.387Z [INFO] [xmpp:JingleSessionPC] <vu.setReceiverVideoConstraint>:  JingleSessionPC[session=P2P,initiator=true,sid=b4dd403e443c] setReceiverVideoConstraint - constraints: {}
-[BROWSER:debug] 2026-09-23T13:34:46.388Z [DEBUG] [xmpp:JingleSessionPC] <vu._sendContentModify>:  JSHandle@node
-[BROWSER:debug] 2026-09-23T13:34:46.391Z [DEBUG] [xmpp:JingleSessionPC] <vu._renegotiate>:  JingleSessionPC[session=P2P,initiator=true,sid=b4dd403e443c] Renegotiate: setting remote description
-[BROWSER:debug] 2026-09-23T13:34:46.398Z [DEBUG] [xmpp:JingleSessionPC] <vu._renegotiate>:  JingleSessionPC[session=P2P,initiator=true,sid=b4dd403e443c] Renegotiate: creating answer
-[BROWSER:debug] 2026-09-23T13:34:46.404Z [DEBUG] [xmpp:JingleSessionPC] <vu._renegotiate>:  JingleSessionPC[session=P2P,initiator=true,sid=b4dd403e443c] Renegotiate: setting local description
-[BROWSER:debug] 2026-09-23T13:34:46.409Z [DEBUG] [xmpp:JingleSessionPC] JingleSessionPC[session=P2P,initiator=true,sid=b4dd403e443c] setVideoCodecs task is done
-[BROWSER:info] 2026-09-23T13:34:46.730Z [INFO] [xmpp:JingleSessionPC] <peerconnection.oniceconnectionstatechange>:  (TIME) ICE checking P2P:	 3634.4000000059605
-[BROWSER:info] 2026-09-23T13:34:46.731Z [INFO] [xmpp:JingleSessionPC] <peerconnection.onconnectionstatechange>:  (TIME) P2P PC state is now connecting (ICE state checking):	 3635.9000000059605
-[BROWSER:info] 2026-09-23T13:34:46.733Z [INFO] [xmpp:JingleSessionPC] <peerconnection.oniceconnectionstatechange>:  (TIME) ICE connected P2P:	 3637.4000000059605
-[BROWSER:info] 2026-09-23T13:34:46.734Z [INFO] [core:JitsiConference] <Dm._setP2PStatus>:  Peer to peer connection established!
-[BROWSER:debug] 2026-09-23T13:34:46.734Z [DEBUG] [stats:AvgRTPStatsReporter] <Gh.t._onP2PStatusChanged>:  Resetting average stats calculation
-[BROWSER:info] 2026-09-23T13:34:46.738Z [INFO] [core:JitsiConference] <Dm._addRemoteTracks>:  Adding remote P2P track: RemoteTrack[userID: acbaf111, type: audio, ssrc: 1337324067, p2p: true, sourceName: acbaf111-a0, status: {readyState: live, muted: true, enabled: true}]
-[BROWSER:debug] 2026-09-23T13:34:46.742Z [DEBUG] [app:tracks] <Js>:  Track state for participant acbaf111 changed(reason: Track added):
-{type: audio, videoType: undefined, muted: false, isReceivingData: true, jitsiTrack: RemoteTrack[userID: acbaf111, type: audio, ssrc: 1337324067, p2p: true, sourceName: acbaf111-a0, status: {readyState: live, muted: true, enabled: true}]}
-[BROWSER:info] 2026-09-23T13:34:46.745Z [INFO] [core:JitsiConference] <Dm._suspendMediaTransferForJvbConnection>:  Suspending media transfer over the JVB connection...
-[BROWSER:info] 2026-09-23T13:34:46.746Z [INFO] [rtc:TraceablePeerConnection] <rd.setMediaTransferActive>:  TPC[id=2,type=JVB] Suspending media transfer.
-[BROWSER:info] 2026-09-23T13:34:46.746Z [INFO] [core:JitsiConference] <Dm._onIceConnectionEstablished>:  Starting remote stats with p2p connection
-[BROWSER:debug] 2026-09-23T13:34:46.746Z [DEBUG] [stats:statistics] <Cr.sendAnalyticsAndLog>:  {"action":"established","attributes":{"initiator":true},"source":"p2p","type":"operational"}
-[BROWSER:info] 2026-09-23T13:34:46.747Z [INFO] [core:JitsiConference] Suspended media transfer over the JVB connection !
-[BROWSER:debug] 2026-09-23T13:34:46.755Z [DEBUG] [rtc:JitsiRemoteTrack] <Wa._onTrackUnmute>:  "onunmute" event(1790170486755): RemoteTrack[userID: acbaf111, type: audio, ssrc: 1337324067, p2p: true, sourceName: acbaf111-a0, status: {readyState: live, muted: false, enabled: true}]
-[BROWSER:info] 2026-09-23T13:34:46.755Z [INFO] [xmpp:JingleSessionPC] <peerconnection.onconnectionstatechange>:  (TIME) P2P PC state is now connected (ICE state connected):	 3659.600000023842
-[BROWSER:info] 2026-09-23T13:34:46.788Z [INFO] [rtc:JitsiRemoteTrack] <Wa._playCallback>:  (TIME) Render audio:	 3691.9000000059605
-[BROWSER:info] 2026-09-23T13:34:46.788Z [INFO] [rtc:JitsiRemoteTrack] <Wa._playCallback>:  (TIME) TTFM audio:	 3407.1999999582767
-[BROWSER:debug] 2026-09-23T13:34:46.788Z [DEBUG] [rtc:JitsiRemoteTrack] <Wa._containerEventHandler>:  canplaythrough handler was called for a container with attached RemoteTrack[userID: acbaf111, type: audio, ssrc: 1337324067, p2p: true, sourceName: acbaf111-a0, status: {readyState: live, muted: false, enabled: true}]
-[BROWSER:debug] 2026-09-23T13:34:46.795Z [DEBUG] [xmpp:strophe.jingle] <Su.onJingle>:  Received transport-info from bot-test@muc.meet.jitsi/acbaf111 for candidates=generation: 0 ip: 192.168.10.151 protocol: udp foundation: 0 component: 1 type: host id: go4uc01ec6 network: 1 port: 55375 priority: 2122121471, generation: 0 ip: 10.133.85.172 protocol: udp foundation: 1 component: 1 type: host id: ry5blgeg7a network: 1 port: 52534 priority: 2122055935, generation: 0 ip: 172.18.0.1 protocol: udp foundation: 2 component: 1 type: host id: tc61y9men9 network: 1 port: 36765 priority: 2122252543, generation: 0 ip: 172.17.0.1 protocol: udp foundation: 3 component: 1 type: host id: i1hj1igkht network: 1 port: 44196 priority: 2122187007, generation: 0 ip: 192.168.10.151 tcptype: active id: 2z56kx4sw8 foundation: 4 type: host network: 1 port: 9 protocol: tcp component: 1 priority: 2105393407, generation: 0 ip: 10.133.85.172 tcptype: active id: 49q2kksv6b foundation: 5 type: host network: 1 port: 9 protocol: tcp component: 1 priority: 2105327871, generation: 0 ip: 172.18.0.1 tcptype: active id: zewt7pxmov foundation: 6 type: host network: 1 port: 9 protocol: tcp component: 1 priority: 2105524479, generation: 0 ip: 172.17.0.1 tcptype: active id: gw4vhwht23 foundation: 7 type: host network: 1 port: 9 protocol: tcp component: 1 priority: 2105458943
+[BROWSER:info] 2026-09-24T08:51:28.377Z [INFO] [xmpp:ChatRoom] <yl.onPresence>:  (TIME) MUC joined:	 1897
+[BROWSER:info] 2026-09-24T08:51:28.401Z [INFO] [app:dialog] <kg>:  Hide dialog: LoginDialog
+[BROWSER:info] 2026-09-24T08:51:28.404Z [INFO] [app:dialog] <kg>:  Hide dialog: PasswordRequiredPrompt
+[BROWSER:debug] 2026-09-24T08:51:28.427Z [DEBUG] [core:JitsiConference] <Dm._shouldBeInP2PMode>:  P2P? peerCount: 1, hasBotPeer: false => true
+[BROWSER:debug] 2026-09-24T08:51:28.427Z [DEBUG] [core:JitsiConference] <Dm._maybeStartOrStopP2P>:  I'm the bigger peersId - the other peer should start P2P f4ace922 abc0da5d
+[BROWSER:info] 2026-09-24T08:51:28.428Z [INFO] [app:conference-web] <Mn.<anonymous>>:  My role changed, new role: participant
+[BROWSER:info] 2026-09-24T08:51:28.441Z [INFO] [xmpp:ChatRoom] <yl.onMessage>:  Subject is changed to 
+[BROWSER:log] [CLIENT] Participant joined: {"id":"abc0da5d","displayName":"maroua","formattedDisplayName":"maroua"}
+[BROWSER:error] 2026-09-24T08:51:28.467Z [ERROR] [app:base-conference] Error while requesting wake lock for screen: NotAllowedError: Wake Lock permission request denied
+[BROWSER:log] [CLIENT] Conference joined. {roomName: bot-test, id: f4ace922, displayName: Meeting-Minute-Bot, formattedDisplayName: Meeting-Minute-Bot (me), avatarURL: }
+[BROWSER:info] 2026-09-24T08:51:28.470Z [INFO] [xmpp:strophe.jingle] <Su.onJingle>:  Found a JSON-encoded element in session-initiate, translating to standard Jingle.
+[BROWSER:debug] 2026-09-24T08:51:28.470Z [DEBUG] [xmpp:strophe.jingle] <Su.onJingle>:  Received session-initiate from bot-test@muc.meet.jitsi/focus with sources=jvb:[511006958,314111644]
+[BROWSER:info] 2026-09-24T08:51:28.471Z [INFO] [xmpp:strophe.jingle] <Su.onJingle>:  (TIME) received session-initiate:	1989.3000000002794, bridgeSessionId=4571391a67ad-0071eb5f-43b7-46fa-ba87-da1202ad0571
+[BROWSER:info] 2026-09-24T08:51:28.476Z [INFO] [rtc:TraceablePeerConnection] <new rd>:  Using RTCRtpTransceiver#setCodecPreferences for codec selection
+[BROWSER:info] 2026-09-24T08:51:28.476Z [INFO] [rtc:TraceablePeerConnection] <new rd>:  Create new TPC[id=1,type=JVB]
+[BROWSER:info] 2026-09-24T08:51:28.477Z [INFO] [core:JitsiConference] <Dm._setBridgeChannel>:  SCTP: offered=true, prefered=true
+[BROWSER:debug] 2026-09-24T08:51:28.478Z [DEBUG] [rtc:BridgeChannel] <new ys>:  constructor() with peerconnection
+[BROWSER:debug] 2026-09-24T08:51:28.479Z [DEBUG] [xmpp:JingleSessionPC] <vu.setOfferAnswerCycle>:  JingleSessionPC[session=JVB,initiator=false,sid=89678vi0fnbrc] Executing setOfferAnswerCycle task
+[BROWSER:debug] 2026-09-24T08:51:28.487Z [DEBUG] [xmpp:JingleSessionPC] <vu._renegotiate>:  JingleSessionPC[session=JVB,initiator=false,sid=89678vi0fnbrc] Renegotiate: setting remote description
+[BROWSER:debug] 2026-09-24T08:51:28.503Z [DEBUG] [ui:videolayout] Scheduled large video update for abc0da5d
+[BROWSER:debug] 2026-09-24T08:51:28.503Z [DEBUG] [ui:VideoContainer] <BU.setStream>:  SetStream on the large video is called without a stream argument!
+[BROWSER:debug] 2026-09-24T08:51:28.504Z [DEBUG] [ui:videolayout] scheduleLargeVideoUpdate: Remote track undefined, isVideoMuted=true, streamingStatusActive=false, isVideoRenderable=false, showAvatar=true
+[BROWSER:debug] 2026-09-24T08:51:28.520Z [DEBUG] [xmpp:JingleSessionPC] <vu._renegotiate>:  JingleSessionPC[session=JVB,initiator=false,sid=89678vi0fnbrc] Renegotiate: creating answer
+[BROWSER:debug] 2026-09-24T08:51:28.529Z [DEBUG] [xmpp:JingleSessionPC] <vu._renegotiate>:  JingleSessionPC[session=JVB,initiator=false,sid=89678vi0fnbrc] Renegotiate: setting local description
+[BROWSER:debug] 2026-09-24T08:51:28.537Z [DEBUG] [xmpp:JingleSessionPC] JingleSessionPC[session=JVB,initiator=false,sid=89678vi0fnbrc] setOfferAnswerCycle task done
+[BROWSER:info] 2026-09-24T08:51:28.541Z [INFO] [xmpp:JingleSessionPC] <vu._sendSessionAccept>:  JingleSessionPC[session=JVB,initiator=false,sid=89678vi0fnbrc] Sending session-accept
+[BROWSER:debug] 2026-09-24T08:51:28.541Z [DEBUG] [xmpp:JingleSessionPC] <vu._sendSessionAccept>:  JSHandle@node
+[BROWSER:info] 2026-09-24T08:51:28.551Z [INFO] [xmpp:JingleSessionPC] <peerconnection.oniceconnectionstatechange>:  (TIME) ICE checking JVB:	 2071
+[BROWSER:info] 2026-09-24T08:51:28.552Z [INFO] [xmpp:JingleSessionPC] <peerconnection.onconnectionstatechange>:  (TIME) JVB PC state is now connecting (ICE state checking):	 2072.3000000002794
+[BROWSER:info] 2026-09-24T08:51:28.567Z [INFO] [xmpp:JingleSessionPC] <peerconnection.oniceconnectionstatechange>:  (TIME) ICE connected JVB:	 2087.4000000003725
+[BROWSER:debug] 2026-09-24T08:51:28.570Z [DEBUG] [rtc:RemoteAudioWedgeDetector] <Ol.start>:  Starting remote audio wedge detector (wedgeTimeout=15000ms), driven by the stats collector inbound audio stats
+[BROWSER:info] 2026-09-24T08:51:28.826Z [INFO] [xmpp:strophe.jingle] <Su.onJingle>:  (TIME) received session-initiate:	2346.100000000093, bridgeSessionId=null
+[BROWSER:debug] 2026-09-24T08:51:28.826Z [DEBUG] [xmpp:strophe.jingle] <Su.onJingle>:  Received session-initiate from bot-test@muc.meet.jitsi/abc0da5d
+[BROWSER:debug] 2026-09-24T08:51:28.827Z [DEBUG] [core:JitsiConference] <Dm._shouldBeInP2PMode>:  P2P? peerCount: 1, hasBotPeer: false => true
+[BROWSER:info] 2026-09-24T08:51:28.829Z [INFO] [rtc:TraceablePeerConnection] <new rd>:  Using RTCRtpTransceiver#setCodecPreferences for codec selection
+[BROWSER:info] 2026-09-24T08:51:28.829Z [INFO] [rtc:TraceablePeerConnection] <new rd>:  Create new TPC[id=2,type=P2P]
+[BROWSER:debug] 2026-09-24T08:51:28.829Z [DEBUG] [xmpp:JingleSessionPC] <vu.setOfferAnswerCycle>:  JingleSessionPC[session=P2P,initiator=false,sid=271cda957013] Executing setOfferAnswerCycle task
+[BROWSER:debug] 2026-09-24T08:51:28.831Z [DEBUG] [xmpp:JingleSessionPC] <vu._renegotiate>:  JingleSessionPC[session=P2P,initiator=false,sid=271cda957013] Renegotiate: setting remote description
+[BROWSER:info] 2026-09-24T08:51:28.836Z [INFO] [rtc:TraceablePeerConnection] <rd._remoteTrackAdded>:  TPC[id=2,type=P2P] Received track event for remote stream[id=abc0da5d-audio-0-16,type=audio]
+[BROWSER:info] 2026-09-24T08:51:28.838Z [INFO] [rtc:TraceablePeerConnection] <rd._createRemoteTrack>:  TPC[id=2,type=P2P] creating remote track[endpoint=abc0da5d,ssrc=3381596180,type=audio,sourceName=abc0da5d-a0]
+[BROWSER:debug] 2026-09-24T08:51:28.838Z [DEBUG] [rtc:JitsiRemoteTrack] <new Wa>:  New remote track created: RemoteTrack[userID: abc0da5d, type: audio, ssrc: 3381596180, p2p: true, sourceName: abc0da5d-a0, status: {readyState: live, muted: true, enabled: true}]
+[BROWSER:info] 2026-09-24T08:51:28.839Z [INFO] [core:JitsiConference] <Dm.onRemoteTrackAdded>:  Trying to add remote P2P track, when not in P2P - IGNORED
+[BROWSER:debug] 2026-09-24T08:51:28.839Z [DEBUG] [xmpp:JingleSessionPC] <vu._renegotiate>:  JingleSessionPC[session=P2P,initiator=false,sid=271cda957013] Renegotiate: creating answer
+[BROWSER:debug] 2026-09-24T08:51:28.843Z [DEBUG] [xmpp:JingleSessionPC] <vu._renegotiate>:  JingleSessionPC[session=P2P,initiator=false,sid=271cda957013] Renegotiate: setting local description
+[BROWSER:debug] 2026-09-24T08:51:28.847Z [DEBUG] [xmpp:JingleSessionPC] JingleSessionPC[session=P2P,initiator=false,sid=271cda957013] setOfferAnswerCycle task done
+[BROWSER:info] 2026-09-24T08:51:28.849Z [INFO] [xmpp:JingleSessionPC] <vu._sendSessionAccept>:  JingleSessionPC[session=P2P,initiator=false,sid=271cda957013] Sending session-accept
+[BROWSER:debug] 2026-09-24T08:51:28.850Z [DEBUG] [xmpp:JingleSessionPC] <vu._sendSessionAccept>:  JSHandle@node
+[BROWSER:debug] 2026-09-24T08:51:28.853Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "ufrag" = "9CAp"
+[BROWSER:debug] 2026-09-24T08:51:28.854Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "network-id" = "1"
+[BROWSER:debug] 2026-09-24T08:51:28.854Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "ufrag" = "9CAp"
+[BROWSER:debug] 2026-09-24T08:51:28.855Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "network-id" = "2"
+[BROWSER:debug] 2026-09-24T08:51:28.855Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "ufrag" = "9CAp"
+[BROWSER:debug] 2026-09-24T08:51:28.856Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "network-id" = "3"
+[BROWSER:debug] 2026-09-24T08:51:28.959Z [DEBUG] [xmpp:JingleSessionPC] JingleSessionPC[session=JVB,initiator=false,sid=89678vi0fnbrc] Resuming the modification queue after session is established!
+[BROWSER:info] 2026-09-24T08:51:28.960Z [INFO] [stats:AvgRTPStatsReporter] <Gh.t._onJvb121StatusChanged>:  Resetting JVB avg RTP stats
+[BROWSER:info] 2026-09-24T08:51:28.968Z [INFO] [xmpp:JingleSessionPC] <peerconnection.onconnectionstatechange>:  (TIME) JVB PC state is now connected (ICE state connected):	 2487.9000000003725
+[BROWSER:info] 2026-09-24T08:51:28.973Z [INFO] [rtc:BridgeChannel] <e.onopen>:  datachannel channel opened
+[BROWSER:info] 2026-09-24T08:51:28.973Z [INFO] [core:JitsiConferenceEventManager] <Mn.<anonymous>>:  (TIME) data.channel.opened:	 2493.3000000002794
+[BROWSER:info] 2026-09-24T08:51:28.978Z [INFO] [rtc:BridgeChannel] <ys.sendReceiverVideoConstraintsMessage>:  Sending ReceiverVideoConstraints with {"assumedBandwidthBps":-1,"lastN":-1}
+[BROWSER:info] 2026-09-24T08:51:28.979Z [INFO] [rtc:BridgeChannel] <e.onmessage>:  New forwarded sources: 
+[BROWSER:debug] 2026-09-24T08:51:28.979Z [DEBUG] [rtc:RTC] <cd._onForwardedSourcesChanged>:  Fowarded sources changed leaving=, entering= at 1790239888979
+[BROWSER:debug] 2026-09-24T08:51:28.979Z [DEBUG] [rtc:BridgeChannel] <e.onmessage>:  Dominant speaker: abc0da5d, previous speakers: 
+[BROWSER:debug] 2026-09-24T08:51:28.986Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "ufrag" = "9CAp"
+[BROWSER:debug] 2026-09-24T08:51:28.986Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "network-id" = "1"
+[BROWSER:debug] 2026-09-24T08:51:28.987Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "ufrag" = "9CAp"
+[BROWSER:debug] 2026-09-24T08:51:28.987Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "network-id" = "2"
+[BROWSER:debug] 2026-09-24T08:51:28.988Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "ufrag" = "9CAp"
+[BROWSER:debug] 2026-09-24T08:51:28.988Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "network-id" = "3"
+[BROWSER:debug] 2026-09-24T08:51:28.993Z [DEBUG] [xmpp:JingleSessionPC] <vu._sendIceCandidate>:  JingleSessionPC[session=P2P,initiator=false,sid=271cda957013] _sendIceCandidate: last candidate
+[BROWSER:debug] 2026-09-24T08:51:29.005Z [DEBUG] [xmpp:JingleSessionPC] <vu._sendIceCandidates>:  JingleSessionPC[session=P2P,initiator=false,sid=271cda957013] _sendIceCandidates count: 6
+[BROWSER:debug] 2026-09-24T08:51:29.006Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "ufrag" = "9CAp"
+[BROWSER:debug] 2026-09-24T08:51:29.006Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "network-id" = "1"
+[BROWSER:debug] 2026-09-24T08:51:29.006Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "ufrag" = "9CAp"
+[BROWSER:debug] 2026-09-24T08:51:29.007Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "network-id" = "2"
+[BROWSER:debug] 2026-09-24T08:51:29.007Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "ufrag" = "9CAp"
+[BROWSER:debug] 2026-09-24T08:51:29.007Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "network-id" = "3"
+[BROWSER:debug] 2026-09-24T08:51:29.007Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "ufrag" = "9CAp"
+[BROWSER:debug] 2026-09-24T08:51:29.008Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "network-id" = "1"
+[BROWSER:debug] 2026-09-24T08:51:29.008Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "ufrag" = "9CAp"
+[BROWSER:debug] 2026-09-24T08:51:29.008Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "network-id" = "2"
+[BROWSER:debug] 2026-09-24T08:51:29.008Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "ufrag" = "9CAp"
+[BROWSER:debug] 2026-09-24T08:51:29.008Z [DEBUG] [sdp:SDPUtils] <Object.candidateToJingle>:  not translating "network-id" = "3"
+[BROWSER:debug] 2026-09-24T08:51:29.237Z [DEBUG] [xmpp:strophe.jingle] <Su.onJingle>:  Received transport-info from bot-test@muc.meet.jitsi/abc0da5d for candidates=foundation: 0 id: kmf31fovsa generation: 0 priority: 2122121471 type: host network: 1 ip: 192.168.10.151 component: 1 port: 60316 protocol: udp, foundation: 1 id: js6to1f34n generation: 0 priority: 2122055935 type: host network: 1 ip: 10.133.85.172 component: 1 port: 49911 protocol: udp, foundation: 2 id: v2coin9lui generation: 0 priority: 2122187007 type: host network: 1 ip: 172.17.0.1 component: 1 port: 35165 protocol: udp, foundation: 3 id: n44xkbosj5 generation: 0 priority: 2122252543 type: host network: 1 ip: 172.18.0.1 component: 1 port: 42471 protocol: udp, foundation: 4 id: ut58siilrh generation: 0 priority: 2105393407 type: host network: 1 port: 9 ip: 192.168.10.151 component: 1 tcptype: active protocol: tcp, foundation: 5 id: ib3m0cwhzw generation: 0 priority: 2105327871 type: host network: 1 port: 9 ip: 10.133.85.172 component: 1 tcptype: active protocol: tcp, foundation: 6 id: 1cs0a8bjxh generation: 0 priority: 2105458943 type: host network: 1 port: 9 ip: 172.17.0.1 component: 1 tcptype: active protocol: tcp, foundation: 7 id: hc87tecrfx generation: 0 priority: 2105524479 type: host network: 1 port: 9 ip: 172.18.0.1 component: 1 tcptype: active protocol: tcp, foundation: 0 id: i2r5pxyord generation: 0 priority: 2122121470 type: host network: 1 ip: 192.168.10.151 component: 2 port: 36308 protocol: udp, foundation: 1 id: 6v8vvpmycg generation: 0 priority: 2122055934 type: host network: 1 ip: 10.133.85.172 component: 2 port: 37701 protocol: udp, foundation: 2 id: 79arymp1hb generation: 0 priority: 2122187006 type: host network: 1 ip: 172.17.0.1 component: 2 port: 56472 protocol: udp, foundation: 3 id: mw27n0i9b9 generation: 0 priority: 2122252542 type: host network: 1 ip: 172.18.0.1 component: 2 port: 47511 protocol: udp, foundation: 4 id: diwk0zaf0z generation: 0 priority: 2105393406 type: host network: 1 port: 9 ip: 192.168.10.151 component: 2 tcptype: active protocol: tcp, foundation: 5 id: 2oph3aoi7o generation: 0 priority: 2105327870 type: host network: 1 port: 9 ip: 10.133.85.172 component: 2 tcptype: active protocol: tcp, foundation: 6 id: 5v4rgc9wiz generation: 0 priority: 2105458942 type: host network: 1 port: 9 ip: 172.17.0.1 component: 2 tcptype: active protocol: tcp, foundation: 7 id: zpa57mcrgm generation: 0 priority: 2105524478 type: host network: 1 port: 9 ip: 172.18.0.1 component: 2 tcptype: active protocol: tcp
+[BROWSER:info] 2026-09-24T08:51:29.238Z [INFO] [core:JitsiConference] <Dm.onTransportInfo>:  P2P addIceCandidates
+[BROWSER:debug] 2026-09-24T08:51:29.238Z [DEBUG] [xmpp:JingleSessionPC] <vu.addIceCandidates>:  JingleSessionPC[session=P2P,initiator=false,sid=271cda957013] Queued add (16) ICE candidates task
+[BROWSER:info] 2026-09-24T08:51:29.535Z [INFO] [app:redux] <Object.persistState>:  redux state persisted. d97349e83732b040c4afe48a92933651 -> 654ed2619db70e86d3059a25db306b4c
+[BROWSER:info] 2026-09-24T08:51:29.792Z [INFO] [xmpp:JingleSessionPC] <peerconnection.oniceconnectionstatechange>:  (TIME) ICE checking P2P:	 3312.4000000003725
+[BROWSER:info] 2026-09-24T08:51:29.793Z [INFO] [xmpp:JingleSessionPC] <peerconnection.onconnectionstatechange>:  (TIME) P2P PC state is now connecting (ICE state checking):	 3313
+[BROWSER:info] 2026-09-24T08:51:29.793Z [INFO] [xmpp:JingleSessionPC] <peerconnection.oniceconnectionstatechange>:  (TIME) ICE connected P2P:	 3313.3000000002794
+[BROWSER:info] 2026-09-24T08:51:29.794Z [INFO] [core:JitsiConference] <Dm._setP2PStatus>:  Peer to peer connection established!
+[BROWSER:debug] 2026-09-24T08:51:29.795Z [DEBUG] [stats:AvgRTPStatsReporter] <Gh.t._onP2PStatusChanged>:  Resetting average stats calculation
+[BROWSER:info] 2026-09-24T08:51:29.800Z [INFO] [core:JitsiConference] <Dm._addRemoteTracks>:  Adding remote P2P track: RemoteTrack[userID: abc0da5d, type: audio, ssrc: 3381596180, p2p: true, sourceName: abc0da5d-a0, status: {readyState: live, muted: true, enabled: true}]
+[BROWSER:debug] 2026-09-24T08:51:29.804Z [DEBUG] [app:tracks] <Js>:  Track state for participant abc0da5d changed(reason: Track added):
+{type: audio, videoType: undefined, muted: false, isReceivingData: true, jitsiTrack: RemoteTrack[userID: abc0da5d, type: audio, ssrc: 3381596180, p2p: true, sourceName: abc0da5d-a0, status: {readyState: live, muted: true, enabled: true}]}
+[BROWSER:info] 2026-09-24T08:51:29.808Z [INFO] [core:JitsiConference] <Dm._suspendMediaTransferForJvbConnection>:  Suspending media transfer over the JVB connection...
+[BROWSER:info] 2026-09-24T08:51:29.809Z [INFO] [rtc:TraceablePeerConnection] <rd.setMediaTransferActive>:  TPC[id=1,type=JVB] Suspending media transfer.
+[BROWSER:info] 2026-09-24T08:51:29.809Z [INFO] [core:JitsiConference] <Dm._onIceConnectionEstablished>:  Starting remote stats with p2p connection
+[BROWSER:debug] 2026-09-24T08:51:29.809Z [DEBUG] [stats:statistics] <Cr.sendAnalyticsAndLog>:  {"action":"established","attributes":{"initiator":false},"source":"p2p","type":"operational"}
+[BROWSER:info] 2026-09-24T08:51:29.810Z [INFO] [core:JitsiConference] Suspended media transfer over the JVB connection !
+[BROWSER:info] 2026-09-24T08:51:29.820Z [INFO] [xmpp:JingleSessionPC] <peerconnection.onconnectionstatechange>:  (TIME) P2P PC state is now connected (ICE state connected):	 3339.7000000001863
+[BROWSER:debug] 2026-09-24T08:51:29.843Z [DEBUG] [xmpp:JingleSessionPC] JingleSessionPC[session=P2P,initiator=false,sid=271cda957013] Resuming the modification queue after session is established!
+[BROWSER:debug] 2026-09-24T08:51:29.843Z [DEBUG] [core:JitsiConference] Got RESULT for P2P "session-accept"
+[BROWSER:info] 2026-09-24T08:51:29.845Z [INFO] [xmpp:JingleSessionPC] <vu.setVideoCodecs>:  JingleSessionPC[session=P2P,initiator=false,sid=271cda957013] setVideoCodecs: codecList=vp9,vp8,h264, screenshareCodec=undefined
+[BROWSER:debug] 2026-09-24T08:51:29.845Z [DEBUG] [xmpp:JingleSessionPC] <vu.setVideoCodecs>:  JingleSessionPC[session=P2P,initiator=false,sid=271cda957013] Queued setVideoCodecs task
+[BROWSER:info] 2026-09-24T08:51:29.845Z [INFO] [xmpp:JingleSessionPC] <vu.setReceiverVideoConstraint>:  JingleSessionPC[session=P2P,initiator=false,sid=271cda957013] setReceiverVideoConstraint - constraints: {}
+[BROWSER:debug] 2026-09-24T08:51:29.846Z [DEBUG] [xmpp:JingleSessionPC] <vu._sendContentModify>:  JSHandle@node
+[BROWSER:debug] 2026-09-24T08:51:29.851Z [DEBUG] [xmpp:JingleSessionPC] JingleSessionPC[session=P2P,initiator=false,sid=271cda957013] ICE candidates task finished
+[BROWSER:debug] 2026-09-24T08:51:29.852Z [DEBUG] [xmpp:JingleSessionPC] <vu._renegotiate>:  JingleSessionPC[session=P2P,initiator=false,sid=271cda957013] Renegotiate: setting remote description
+[BROWSER:info] 2026-09-24T08:51:29.855Z [INFO] [rtc:JitsiRemoteTrack] <Wa._playCallback>:  (TIME) Render audio:	 3374.8000000002794
+[BROWSER:info] 2026-09-24T08:51:29.855Z [INFO] [rtc:JitsiRemoteTrack] <Wa._playCallback>:  (TIME) TTFM audio:	 3116.2000000001863
+[BROWSER:debug] 2026-09-24T08:51:29.855Z [DEBUG] [rtc:JitsiRemoteTrack] <Wa._containerEventHandler>:  canplaythrough handler was called for a container with attached RemoteTrack[userID: abc0da5d, type: audio, ssrc: 3381596180, p2p: true, sourceName: abc0da5d-a0, status: {readyState: live, muted: true, enabled: true}]
+[BROWSER:debug] 2026-09-24T08:51:29.856Z [DEBUG] [rtc:JitsiRemoteTrack] <Wa._onTrackUnmute>:  "onunmute" event(1790239889855): RemoteTrack[userID: abc0da5d, type: audio, ssrc: 3381596180, p2p: true, sourceName: abc0da5d-a0, status: {readyState: live, muted: false, enabled: true}]
+[BROWSER:debug] 2026-09-24T08:51:29.857Z [DEBUG] [xmpp:JingleSessionPC] JingleSessionPC[session=P2P,initiator=false,sid=271cda957013] addIceCandidate ok!
+[BROWSER:debug] 2026-09-24T08:51:29.857Z [DEBUG] [xmpp:JingleSessionPC] JingleSessionPC[session=P2P,initiator=false,sid=271cda957013] addIceCandidate ok!
+[BROWSER:debug] 2026-09-24T08:51:29.857Z [DEBUG] [xmpp:JingleSessionPC] JingleSessionPC[session=P2P,initiator=false,sid=271cda957013] addIceCandidate ok!
+[BROWSER:debug] 2026-09-24T08:51:29.858Z [DEBUG] [xmpp:JingleSessionPC] JingleSessionPC[session=P2P,initiator=false,sid=271cda957013] addIceCandidate ok!
+[BROWSER:debug] 2026-09-24T08:51:29.858Z [DEBUG] [xmpp:JingleSessionPC] JingleSessionPC[session=P2P,initiator=false,sid=271cda957013] addIceCandidate ok!
+[BROWSER:debug] 2026-09-24T08:51:29.858Z [DEBUG] [xmpp:JingleSessionPC] JingleSessionPC[session=P2P,initiator=false,sid=271cda957013] addIceCandidate ok!
+[BROWSER:debug] 2026-09-24T08:51:29.859Z [DEBUG] [xmpp:JingleSessionPC] JingleSessionPC[session=P2P,initiator=false,sid=271cda957013] addIceCandidate ok!
+[BROWSER:debug] 2026-09-24T08:51:29.859Z [DEBUG] [xmpp:JingleSessionPC] JingleSessionPC[session=P2P,initiator=false,sid=271cda957013] addIceCandidate ok!
+[BROWSER:debug] 2026-09-24T08:51:29.860Z [DEBUG] [xmpp:JingleSessionPC] JingleSessionPC[session=P2P,initiator=false,sid=271cda957013] addIceCandidate ok!
+[BROWSER:debug] 2026-09-24T08:51:29.860Z [DEBUG] [xmpp:JingleSessionPC] JingleSessionPC[session=P2P,initiator=false,sid=271cda957013] addIceCandidate ok!
+[BROWSER:debug] 2026-09-24T08:51:29.860Z [DEBUG] [xmpp:JingleSessionPC] JingleSessionPC[session=P2P,initiator=false,sid=271cda957013] addIceCandidate ok!
+[BROWSER:debug] 2026-09-24T08:51:29.861Z [DEBUG] [xmpp:JingleSessionPC] JingleSessionPC[session=P2P,initiator=false,sid=271cda957013] addIceCandidate ok!
+[BROWSER:debug] 2026-09-24T08:51:29.861Z [DEBUG] [xmpp:JingleSessionPC] JingleSessionPC[session=P2P,initiator=false,sid=271cda957013] addIceCandidate ok!
+[BROWSER:debug] 2026-09-24T08:51:29.862Z [DEBUG] [xmpp:JingleSessionPC] JingleSessionPC[session=P2P,initiator=false,sid=271cda957013] addIceCandidate ok!
+[BROWSER:debug] 2026-09-24T08:51:29.862Z [DEBUG] [xmpp:JingleSessionPC] JingleSessionPC[session=P2P,initiator=false,sid=271cda957013] addIceCandidate ok!
+[BROWSER:debug] 2026-09-24T08:51:29.862Z [DEBUG] [xmpp:JingleSessionPC] JingleSessionPC[session=P2P,initiator=false,sid=271cda957013] addIceCandidate ok!
+[BROWSER:debug] 2026-09-24T08:51:29.864Z [DEBUG] [xmpp:strophe.jingle] <Su.onJingle>:  Received content-modify from bot-test@muc.meet.jitsi/abc0da5d
+[BROWSER:debug] 2026-09-24T08:51:29.865Z [DEBUG] [xmpp:strophe.jingle] <Su.onJingle>:  Received content-modify from bot-test@muc.meet.jitsi/abc0da5d
+[BROWSER:debug] 2026-09-24T08:51:29.866Z [DEBUG] [xmpp:JingleSessionPC] <vu._renegotiate>:  JingleSessionPC[session=P2P,initiator=false,sid=271cda957013] Renegotiate: creating answer
+[BROWSER:debug] 2026-09-24T08:51:29.871Z [DEBUG] [xmpp:JingleSessionPC] <vu._renegotiate>:  JingleSessionPC[session=P2P,initiator=false,sid=271cda957013] Renegotiate: setting local description
+[BROWSER:debug] 2026-09-24T08:51:29.881Z [DEBUG] [xmpp:JingleSessionPC] JingleSessionPC[session=P2P,initiator=false,sid=271cda957013] setVideoCodecs task is done
+[BOT] Initial Jitsi state:
+{
+  "api": true,
+  "participant_count": 2,
+  "participants": [
+    {
+      "id": "abc0da5d",
+      "displayName": "maroua"
+    },
+    {
+      "id": "f4ace922",
+      "displayName": "Meeting-Minute-Bot"
+    }
+  ]
+}
+[BOT] Starting participant monitoring.
+[BOT] Participants: 2
+[BOT]   abc0da5d -> maroua
+[BOT]   f4ace922 -> Meeting-Minute-Bot
+[BROWSER:debug] 2026-09-24T08:51:33.137Z [DEBUG] [xmpp:XmppConnection] <Fc._maybeStartWSKeepAlive>:  Scheduling next WebSocket keep-alive in 74090.06147423781ms
+[BROWSER:debug] 2026-09-24T08:51:44.044Z [DEBUG] [app:tracks] <Js>:  Track state for participant abc0da5d changed(reason: Track removed): No tracks available!
+[BROWSER:debug] 2026-09-24T08:51:44.048Z [DEBUG] [e2ee:OlmAdapter] <rh._onParticipantLeft>:  Participant abc0da5d left
+[BROWSER:log] 2026-09-24T08:51:44.063Z [LOG] [app:conference-web] <Mn.<anonymous>>:  USER abc0da5d LEFT: Fr
+[BROWSER:debug] 2026-09-24T08:51:44.063Z [DEBUG] [core:JitsiConference] <Dm._shouldBeInP2PMode>:  P2P? peerCount: 0, hasBotPeer: false => false
+[BROWSER:info] 2026-09-24T08:51:44.064Z [INFO] [core:JitsiConference] <Dm._maybeStartOrStopP2P>:  Will stop P2P with: bot-test@muc.meet.jitsi/abc0da5d
+[BROWSER:info] 2026-09-24T08:51:44.065Z [INFO] [core:JitsiConference] <Dm._resumeMediaTransferForJvbConnection>:  Resuming media transfer over the JVB connection...
+[BROWSER:info] 2026-09-24T08:51:44.065Z [INFO] [rtc:TraceablePeerConnection] <rd.setMediaTransferActive>:  TPC[id=1,type=JVB] Resuming media transfer.
+[BROWSER:info] 2026-09-24T08:51:44.065Z [INFO] [core:JitsiConference] <Dm._stopP2PSession>:  Stopping remote stats for P2P connection
+[BROWSER:info] 2026-09-24T08:51:44.066Z [INFO] [xmpp:JingleSessionPC] <vu.terminate>:  JingleSessionPC[session=P2P,initiator=false,sid=271cda957013] Skipped sending session-terminate
+[BROWSER:info] 2026-09-24T08:51:44.067Z [INFO] [xmpp:JingleSessionPC] <vu.onTerminated>:  JingleSessionPC[session=P2P,initiator=false,sid=271cda957013] Session terminated undefined undefined
+[BROWSER:debug] 2026-09-24T08:51:44.067Z [DEBUG] [xmpp:JingleSessionPC] <vu.close>:  JingleSessionPC[session=P2P,initiator=false,sid=271cda957013] Clearing modificationQueue
+[BROWSER:debug] 2026-09-24T08:51:44.068Z [DEBUG] [xmpp:JingleSessionPC] <vu.close>:  JingleSessionPC[session=P2P,initiator=false,sid=271cda957013] Queued PC close task
+[BROWSER:debug] 2026-09-24T08:51:44.068Z [DEBUG] [xmpp:JingleSessionPC] <vu.close>:  JingleSessionPC[session=P2P,initiator=false,sid=271cda957013] Shutdown modificationQueue!
+[BROWSER:info] 2026-09-24T08:51:44.069Z [INFO] [core:JitsiConference] <Dm._setP2PStatus>:  Peer to peer connection closed!
+[BROWSER:debug] 2026-09-24T08:51:44.069Z [DEBUG] [stats:AvgRTPStatsReporter] <Gh.t._onP2PStatusChanged>:  Resetting average stats calculation
+[BROWSER:info] 2026-09-24T08:51:44.071Z [INFO] [stats:AvgRTPStatsReporter] <Gh.t._onJvb121StatusChanged>:  Resetting JVB avg RTP stats
+[BROWSER:debug] 2026-09-24T08:51:44.073Z [DEBUG] [ui:videolayout] Scheduled large video update for f4ace922
+[BROWSER:debug] 2026-09-24T08:51:44.073Z [DEBUG] [ui:VideoContainer] <BU.setStream>:  SetStream on the large video is called without a stream argument!

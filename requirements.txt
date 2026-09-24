@@ -1,0 +1,62 @@
+# Core
+
+pandas>=2.0.0
+numpy>=1.24.0
+
+# FastAPI (if exposing an API)
+
+fastapi>=0.115.0
+uvicorn>=0.30.0
+
+# Browser automation
+
+selenium>=4.25.0
+webdriver-manager>=4.0.2
+
+# Audio processing
+
+sounddevice>=0.5.0
+soundfile>=0.12.1
+pydub>=0.25.1
+ffmpeg-python>=0.2.0
+
+# Speech-to-Text
+
+faster-whisper>=1.1.0
+
+# LLM integration
+
+ollama>=0.4.0
+
+# NLP and text processing
+
+langdetect>=1.0.9
+nltk>=3.9
+spacy>=3.8.0
+
+# Utilities
+
+python-dotenv>=1.0.1
+requests>=2.32.0
+tqdm>=4.67.0
+
+# Report generation
+
+jinja2>=3.1.4
+markdown>=3.7
+
+# Date and time handling
+
+python-dateutil>=2.9.0
+
+# Logging and configuration
+
+pyyaml>=6.0.2
+
+# Optional: PDF export of meeting minutes
+
+reportlab>=4.2.0
+
+# Optional: DOCX export
+
+python-docx>=1.1.2
